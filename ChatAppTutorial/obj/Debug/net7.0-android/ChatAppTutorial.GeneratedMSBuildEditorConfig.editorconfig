@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = ChatAppTutorial
+build_property.ProjectDir = /home/basarimobile/NetMAUIProjects/ChatAppTutorial/
+
+[/home/basarimobile/NetMAUIProjects/ChatAppTutorial/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppTutorial.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/home/basarimobile/NetMAUIProjects/ChatAppTutorial/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppTutorial.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/home/basarimobile/NetMAUIProjects/ChatAppTutorial/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppTutorial.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/home/basarimobile/NetMAUIProjects/ChatAppTutorial/Pages/ChatPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppTutorial.Pages.ChatPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/ChatPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/ChatPage.xaml
+
+[/home/basarimobile/NetMAUIProjects/ChatAppTutorial/Pages/ListChatPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppTutorial.Pages.ListChatPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/ListChatPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/ListChatPage.xaml
+
+[/home/basarimobile/NetMAUIProjects/ChatAppTutorial/Pages/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppTutorial.Pages.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/LoginPage.xaml
+
+[/home/basarimobile/NetMAUIProjects/ChatAppTutorial/Pages/MatchFriendPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppTutorial.Pages.MatchFriendPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/MatchFriendPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/MatchFriendPage.xaml
+
+[/home/basarimobile/NetMAUIProjects/ChatAppTutorial/Pages/PossibleFriendsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppTutorial.Pages.PossibleFriendsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/PossibleFriendsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/PossibleFriendsPage.xaml
+
+[/home/basarimobile/NetMAUIProjects/ChatAppTutorial/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppTutorial.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/home/basarimobile/NetMAUIProjects/ChatAppTutorial/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppTutorial.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml

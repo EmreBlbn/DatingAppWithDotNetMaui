@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChatAppTutorial</name>
+    </assembly>
+    <members>
+        <member name="P:ChatAppTutorial.ViewModels.ChatPageViewModel.FromUserId">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.ChatPageViewModel._fromUserId"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ChatPageViewModel.ToUserId">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.ChatPageViewModel._toUserId"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ChatPageViewModel.FriendInfo">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.ChatPageViewModel._friendInfo"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ChatPageViewModel.Messages">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.ChatPageViewModel._messages"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ChatPageViewModel.IsProcessing">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.ChatPageViewModel._isProcessing"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ChatPageViewModel.Message">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.ChatPageViewModel._message"/>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.ChatPageViewModel.sendMessageCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.ChatPageViewModel.SendMessageCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ChatPageViewModel.SendMessageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.ChatPageViewModel.SendMessage"/>.</summary>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.ChatPageViewModel.goBackListPageCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.ChatPageViewModel.GoBackListPageCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ChatPageViewModel.GoBackListPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.ChatPageViewModel.GoBackListPage"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.UserInfo">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.ListChatPageViewModel._userInfo"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.UserFriends">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.ListChatPageViewModel._userFriends"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.LatestMessages">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.ListChatPageViewModel._latestMessages"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.IsProcessing">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.ListChatPageViewModel._isProcessing"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.HasPossibleFriend">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.ListChatPageViewModel._hasPossibleFriend"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.HasNotPossibleFriend">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.ListChatPageViewModel._hasNotPossibleFriend"/>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.ListChatPageViewModel.getListFriendsCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.GetListFriendsCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.GetListFriendsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.ListChatPageViewModel.GetListFriends"/>.</summary>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.ListChatPageViewModel.openChatPageCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.OpenChatPageCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.OpenChatPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.ListChatPageViewModel.OpenChatPage(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.ListChatPageViewModel.openAddFriendPageCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.OpenAddFriendPageCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.OpenAddFriendPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.ListChatPageViewModel.OpenAddFriendPage"/>.</summary>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.ListChatPageViewModel.openAddPossibleFriendsPageCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.OpenAddPossibleFriendsPageCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.ListChatPageViewModel.OpenAddPossibleFriendsPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.ListChatPageViewModel.OpenAddPossibleFriendsPage"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.LoginPageViewModel.UserName">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.LoginPageViewModel._userName"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.LoginPageViewModel.Password">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.LoginPageViewModel._password"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.LoginPageViewModel.IsProcessing">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.LoginPageViewModel._isProcessing"/>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.LoginPageViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.LoginPageViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.LoginPageViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.LoginPageViewModel.Login"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.IsProcessing">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel._isProcessing"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.AvatarFile">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel._avatarFile"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.UserName">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel._userName"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.Hobbies">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel._hobbies"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.Age">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel._age"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.Job">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel._job"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.IsOnline">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel._isOnline"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.IsAway">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel._isAway"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.UserInfo">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel._userInfo"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.ContainsUser">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel._containsUser"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.NotContainsUser">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel._notContainsUser"/>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.addFriendCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.AddFriendCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.AddFriendCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.AddFriend"/>.</summary>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.dislikeCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.DislikeCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.DislikeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.Dislike"/>.</summary>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.goToListPageCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.GoToListPageCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.GoToListPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.MatchFriendPageViewModel.GoToListPage"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.IsProcessing">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel._isProcessing"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.UserInfo">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel._userInfo"/>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.PossibleFriends">
+            <inheritdoc cref="F:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel._possibleFriends"/>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.goToListPageCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.GoToListPageCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.GoToListPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.GoToListPage"/>.</summary>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.addFriendCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.AddFriendCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.AddFriendCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.AddFriend(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.dislikeFriendCommand">
+            <summary>The backing field for <see cref="P:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.DislikeFriendCommand"/>.</summary>
+        </member>
+        <member name="P:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.DislikeFriendCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:ChatAppTutorial.ViewModels.PossibleFriendsPageViewModel.DislikeFriend(System.Int32)"/>.</summary>
+        </member>
+    </members>
+</doc>
